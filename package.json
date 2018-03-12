@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "^4.10.0",
+    "material-ui": "^0.20.0",
+    "papaparse": "^4.3.7",
+    "promise-polyfill": "^7.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.1",
-    "firebase": "^4.10.0"
+    "react-table": "^6.8.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"

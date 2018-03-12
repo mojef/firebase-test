@@ -1,24 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Main from './Component/Main';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
-
-import {BrowserRouter as Router,
-        Route,Link
-
-
-} from 'react-router-dom';
-import Home from './Component/Home';
-import About from './Component/About';
-
-
+import 'react-table/react-table.css'
 
 ReactDOM.render(
-        <div>
-                <App /> 
-        </div>,
-        document.getElementById('root')         
+        <Main />,
+        document.getElementById('root')
 );
 registerServiceWorker();
-
